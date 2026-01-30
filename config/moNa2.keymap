@@ -72,10 +72,10 @@
 
         layer_2 {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK               &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS              &kp MINUS
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL    &kp N0     &kp N7        &kp N8        &kp N9        &kp ASTERISK          &kp SLASH
-&trans                      &trans           &trans           &trans           &trans        &trans       &trans     &trans                                                          &kp PIPE
+&kp MINUS             &kp KP_NUMBER_7         &kp LG(UP_ARROW)        &kp KP_NUMBER_9          &kp PLUS                                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LG(LS(COMMA))     &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)      &kp LG(RIGHT_ARROW)      &kp LS(LG(PERIOD))               &kp EQUAL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS              &kp MINUS
+&kp LG(LS(UP_ARROW))  &kp LG(LS(DOWN_ARROW))  &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp LG(LS(LA(V)))   &kp EQUAL    &kp N0     &kp N7        &kp N8        &kp N9        &kp ASTERISK          &kp SLASH
+&trans                &trans                  &trans                  &trans                   &trans              &trans       &kp COMMA  &kp PERIOD                                                      &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -83,10 +83,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans    &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp LS(UP_ARROW)    &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
+&kp HOME        &kp LS(LEFT_ARROW)      &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)      &kp END            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans              &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans              &trans                   &trans   &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
