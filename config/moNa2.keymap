@@ -48,7 +48,7 @@
 
         default_layer {
             bindings = <
-&lt 4 Q           &kp W         &kp E             &kp R             &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&lt 4 Q           &kp W         &kp E             &kp R             &kp T                                                 &kp Y        &kp U  &lt 5 I    &lt 7 O  &kp P
 &kp A             &kp S         &kp D             &kp F             &kp G                                  &kp SQT        &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &kp TAB                   &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &lt 2 LANG1  &mt LEFT_COMMAND SPACE    &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
@@ -127,7 +127,7 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &mo 9
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
