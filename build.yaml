@@ -21,6 +21,6 @@ include:
   - board: seeeduino_xiao_ble
     shield: moNa2_R
   - board: seeeduino_xiao_ble
-    shield: moNa2_L rgbled_adapter
+    shield: moNa2_L
   - board: seeeduino_xiao_ble
     shield: settings_reset
