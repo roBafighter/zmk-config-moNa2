@@ -57,6 +57,8 @@
 
 &zip_temp_layer {
     excluded-positions = 
-        // layer5で使いたいキーのkey-positionを記入
+        16   // layer5で使いたいキーのkey-positionを記入
+        17
+        18
     >;
 };
